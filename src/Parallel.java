@@ -17,8 +17,8 @@ public class Parallel
 		
 		if(browser.equals("firefox"))
 			driver=new FirefoxDriver();
-		else if(browser.equals("chrome"))
-			driver=new ChromeDriver();
+		/*else if(browser.equals("chrome"))
+			driver=new ChromeDriver();*/
 		else
 			driver=new InternetExplorerDriver();
 	}
